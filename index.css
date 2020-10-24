@@ -68,8 +68,14 @@ body{
     padding: .75rem 1.25rem;
     margin-bottom: -1px;
     background-color: #fff;
-    border: 1px solid #1e8fff5c;
-    box-shadow: 2px 2px 15px -2px #1e8fff5c;
+    border: 1px solid #17a2b8;
+}
+.btn-outline-info {
+    color: rgb(23, 162, 184);
+    border-color: rgb(23, 162, 184);
+    border-radius: 1px;
+    border-bottom: none;
+    outline: none;
 }
 .customer-border {
     position: relative;
@@ -428,6 +434,7 @@ td
     padding-top: 10%;
     font-weight: bold;
 }
+
 .btn-danger 
 {
     width: 70px;;
@@ -490,6 +497,6 @@ small
 .dis
 {
     border: 1px solid rgba(0,0,0,0.3);
-    width: 40px;
+    width: 100px;
     height: 20px;
 }
