@@ -2,7 +2,49 @@
 {
     margin: 0;
     padding:0;
+    
 }
+body{
+    font-family: sans-serif;
+    overflow: hidden;
+    user-select: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Staatliches&display=swap');
+/*                     NAV SECTION                       */
+/* FONT */
+.navbar-light .navbar-brand {
+    color: #757575d5;
+}
+.navbar-light .navbar-brand:hover {
+    color: #000;
+    transition: 0.4s ease-in-out;
+}
+.navbar-brand
+{  
+    font-family: 'Henny Penny', cursive;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+/* NAVBAR */
+.nav-bar
+{
+    box-shadow: 2px 6px 20px -9px rgba(0,0,0,0.2);
+    background-color: #f4f5f6;
+  }
+.shadow
+
+{
+    box-shadow: 0px 9px 20px -9 rgba(0,0,0,0.5) !important;
+}
+.display-flex
+{
+    display: flex;
+}
+.display-flex svg{
+    margin-top: 3px;
+}
+/*                     TABLE              */
 .row{
     padding-top: 20px;
 }
@@ -69,7 +111,7 @@ hr{
 }
 .btn-warning
 {
-    background : #ffc107;
+    background : rgb(194, 194, 0);
 }
 .have .btn
 {
