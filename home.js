@@ -35,7 +35,7 @@ document.querySelector(".close").addEventListener("click", function(){
 
 const typedTextSpan = document.querySelector(".typed-text");
 
-const textArray = ["Resturant","Cafeteria","Fastfood","Dinner"];
+const textArray = ["Restaurant","Cafeteria","Fast-food","Dinner"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;
