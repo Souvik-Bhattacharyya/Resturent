@@ -35,7 +35,7 @@ document.querySelector(".close").addEventListener("click", function(){
 
 const typedTextSpan = document.querySelector(".typed-text");
 
-const textArray = ["Restaurant","Cafeteria","Fast-food","Dinner"];
+const textArray = ["Restaurant","Cafeteria","Fast-Food","Dinner"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 2000;
@@ -63,7 +63,7 @@ function erase(){
     else{
         textArrayIndex++;
         if(textArrayIndex>=textArray.length) textArrayIndex=0;
-        setTimeout(type, typingDelay + 1100);
+        setTimeout(type, typingDelay + 900);
     }
 }
 

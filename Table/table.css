@@ -90,12 +90,12 @@ body{
     bottom: -2px;
     background-color: #fff;
     z-index: -2;
-    filter: blur(15px);
+    filter: blur(10px);
 }
 .shadow-fill::before,
 .shadow-fill::after
 {
-    background: linear-gradient(235deg,red,#e7e7e7,red);
+    background: linear-gradient(235deg,red,#fff,red);
 }
 .shadow-empty::before
 {
@@ -118,12 +118,12 @@ body{
     bottom: -2px;
     background-color: #fff;
     z-index: -2;
-    filter: blur(15px);
+    filter: blur(10px);
 }
 .shadow-empty::before,
 .shadow-empty::after
 {
-    background: linear-gradient(117.50deg,rgb(0, 182, 0),#ffffff,rgb(0, 184, 0));
+    background: linear-gradient(117.50deg,rgb(0, 182, 0),#fff,rgb(0, 184, 0));
 }
 /* .shadow-empty
 {
