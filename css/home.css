@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Staatliches&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('../Fonts/Henny+Penny.css');
+@import url('../Fonts/Roboto+Slab.css');
     /* background: #4299e1; */
     /* background: #063247; */
-
-
 *{
     margin: 0;
     padding: 0;
@@ -20,17 +17,30 @@ body{
 /*                     NAV SECTION                       */
 
 /* FONT */
-.navbar-brand {
-    color: #757575d5;
+.navbar-light .navbar-brand {
+  color: #742a2a;
 }
 .navbar-brand:hover {
     color: #000;
     transition: 0.4s ease-in-out;
 }
+.nav-link
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .navbar-brand
 {  
-    font-family: 'Staatliches', cursive;
+    font-family:'Arial Narrow Bold', sans-serif;
     font-size: 25px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+ul li .active:hover
+{
+  border: 1px solid #000000;
 }
 /* NAVBAR */
 .nav-bar
